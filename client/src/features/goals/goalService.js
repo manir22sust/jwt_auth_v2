@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const API_URL = "/api/goals/";
+const API_URL = `${process.env.REACT_APP_BASE_URL}/api/goals/`;
+
+// const API_URL = "/api/goals/";
 
 //  Create new goal
 
