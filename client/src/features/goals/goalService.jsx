@@ -1,6 +1,7 @@
 import axios from "axios";
+import { BASE_URL } from "../../utils/URL";
 
-const API_URL = `${process.env.REACT_APP_BASE_URL}/api/goals/`;
+const API_URL = `${BASE_URL}/api/goals/`;
 
 // const API_URL = "/api/goals/";
 
